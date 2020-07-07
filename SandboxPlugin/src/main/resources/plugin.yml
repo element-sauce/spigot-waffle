@@ -1,0 +1,6 @@
+name: SandboxPlugin
+version: ${project.version}
+main: me.billxiang.sandboxplugin.SandboxPlugin
+api-version: 1.16
+authors: [element-sauce]
+description: This is a sandbox plugin.
