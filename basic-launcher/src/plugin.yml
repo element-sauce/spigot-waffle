@@ -1,0 +1,8 @@
+main: com.bxiang.basiclauncher.Main
+name: BasicLauncher
+version: 1.0
+author: element-sauce
+
+commands:
+  Launch:
+    aliases: lch

@@ -29,14 +29,13 @@ public class Main extends JavaPlugin {
 				if (player.hasPermission("hello.use")) {
 					player.sendMessage(ChatColor.DARK_PURPLE + "" + ChatColor.BOLD + "Welcome to Bill's Server!");
 					player.sendMessage(ChatColor.translateAlternateColorCodes('&', "&1H&2a&3v&4e &5f&6u&7n&8!"));
-					return true;
+				} else {
+					player.sendMessage(ChatColor.RED + "You do not have permission.");
 				}
-				player.sendMessage(ChatColor.RED + "You do not have permission.");
-				return true;
 			} else {
 				sender.sendMessage("Hello console!");
-				return true;
 			}
+			return true;
 		}
 		
 		return false;
