@@ -1,0 +1,7 @@
+main: com.bxiang.doctor.Main
+name: Doctor
+version: 1.0
+author: element-sauce
+
+commands:
+  Doctor:
